@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* .login-page label,
+input {
+  display: block;
+  width: 100%;
+} */
+
+/* label {
+  margin-bottom: 5px;
+  height: 22px;
+} */
+
+.login-page input {
+    border: 1px solid #777;
+}
+
+.login-page input.error {
+    border-color: red;
+}
+  
+.login-page .input-feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+/* #loginBtn button {
+    padding: 10px 15px;
+    background-color: rgb(70, 153, 179);
+    color: white;
+    border: 1px solid rgb(70, 153, 179);
+    transition: ease-in-out background-color 250ms, ease-in-out color 250ms;
+} */
+  
+/* button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(70, 153, 179);
+} */
